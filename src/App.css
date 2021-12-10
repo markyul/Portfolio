@@ -4,9 +4,16 @@
 
 .container {
   width: 1200px;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin: 0 auto;
   align-items: center;
+  /* border: 1px solid gray; */
+}
+
+.content {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .side-flex {
@@ -28,10 +35,57 @@
   padding: 0 20px;
   font-weight: bold;
   font-family: "Roboto", sans-serif;
-  cursor: pointer;
 }
 .nav-item:hover {
   color: #fdac53;
+  cursor: pointer;
+}
+
+/* About Me */
+.about-background {
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(112, 93, 80, 0.4),
+      rgba(160, 93, 49, 0.4)
+    ),
+    url("./asset/background.jpg");
+  background-size: auto;
+}
+.name {
+  color: white;
+  font-size: 48px;
+  font-family: "Jua", sans-serif;
+}
+.introduce {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.about-line {
+  width: 50px;
+  border: 3px solid rgb(255, 205, 113);
+  border-radius: 10px;
+}
+.reference {
+  margin-top: 15px;
+  font-size: 20px;
+  color: rgb(199, 199, 199);
+}
+.reference > article {
+  margin-top: 10px;
+}
+.reference > article > header {
+  display: inline;
+  font-weight: bold;
+}
+.reference > article > span {
+  font-family: "Nanum Gothic", sans-serif;
+}
+.reference > article > span:hover {
+  color: #fdac53;
+  cursor: pointer;
 }
 
 .App-logo {
