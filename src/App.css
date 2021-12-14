@@ -1,7 +1,7 @@
 .App {
   text-align: center;
 }
-
+/* common */
 .container {
   width: 1200px;
   padding-top: 20px;
@@ -10,15 +10,29 @@
   align-items: center;
   /* border: 1px solid gray; */
 }
-
-.content {
+.aboutme-content {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-
 .side-flex {
   display: flex;
   justify-content: space-between;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+}
+/* common - card */
+.card {
+  margin-left: 12px;
+  margin-right: 12px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px gray;
+}
+.card img {
+  object-fit: contain;
 }
 
 /* header */
@@ -86,6 +100,29 @@
 .reference > article > span:hover {
   color: #fdac53;
   cursor: pointer;
+}
+
+/* Skill */
+.skill-background {
+  width: 100%;
+  background-color: #d6e6f5;
+}
+.skill-container {
+  /* border: 1px solid black; */
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.skill-title {
+  font-size: 48px;
+  font-weight: bold;
+  font-family: "Gamja Flower", cursive;
+}
+.skill-line {
+  width: 50px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border: 3px solid rgb(0, 189, 9);
+  border-radius: 10px;
 }
 
 .App-logo {
