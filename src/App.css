@@ -29,7 +29,7 @@
   padding: 10px;
   background-color: white;
   border-radius: 10px;
-  box-shadow: 3px 3px 10px gray;
+  box-shadow: 3px 3px 5px gray;
 }
 .card img {
   object-fit: contain;
@@ -47,6 +47,7 @@
 }
 .nav-item {
   padding: 0 20px;
+  font-size: 18px;
   font-weight: bold;
   font-family: "Roboto", sans-serif;
 }
@@ -85,7 +86,8 @@
 .reference {
   margin-top: 15px;
   font-size: 20px;
-  color: rgb(199, 199, 199);
+  /* color: rgb(199, 199, 199); */
+  color: white;
 }
 .reference > article {
   margin-top: 10px;
@@ -96,6 +98,7 @@
 }
 .reference > article > span {
   font-family: "Nanum Gothic", sans-serif;
+  color: rgb(199, 199, 199);
 }
 .reference > article > span:hover {
   color: #fdac53;
