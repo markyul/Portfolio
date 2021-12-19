@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./common/Card";
+import SkillCard from "./common/SkillCard";
 
 import htmlCssJsLogo from "../asset/html_css_js.png";
 import reactLogo from "../asset/react_logo.png";
@@ -15,17 +15,17 @@ export default function Skill() {
           <div className="skill-title">WEB</div>
           <hr className="skill-line"></hr>
           <section className="flex">
-            <Card src={htmlCssJsLogo} />
-            <Card src={reactLogo} />
-            <Card src={vueLogo} />
+            <SkillCard src={htmlCssJsLogo} />
+            <SkillCard src={reactLogo} />
+            <SkillCard src={vueLogo} />
           </section>
         </section>
         <section className="skill-container">
           <div className="skill-title">APP</div>
           <hr className="skill-line"></hr>
           <section className="flex">
-            <Card src={kotlinLogo} />
-            <Card src={reactNativeLogo} />
+            <SkillCard src={kotlinLogo} />
+            <SkillCard src={reactNativeLogo} />
           </section>
         </section>
       </div>
