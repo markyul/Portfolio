@@ -11,6 +11,7 @@ export default function Skill() {
   return (
     <div className="skill-background">
       <div className="container">
+        <header className="container-title">Skill</header>
         <section className="skill-container">
           <div className="skill-title">WEB</div>
           <hr className="skill-line"></hr>
