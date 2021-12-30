@@ -2,8 +2,12 @@ import React from "react";
 
 export default function ProjectCard(props) {
   return (
-    <article className="card project-card">
-      test
-    </article>
+    <div className="card project-card">
+      <article className="project-container">
+        <div className="project-screen">
+          <img className="app-img" src={props.img} alt="app" />
+        </div>
+      </article>
+    </div>
   );
 }
