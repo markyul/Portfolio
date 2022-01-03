@@ -8,6 +8,16 @@ export default function ProjectCard(props) {
         <div className="project-screen">
           <img className="app-img" src={props.img} alt="app" />
         </div>
+        <div className="project-contents">
+          <div>
+            <strong>개발 기간: </strong>
+            {props.contents.period}
+          </div>
+          <div>
+            <strong>개발 언어: </strong>
+            {props.contents.lang}
+          </div>
+        </div>
       </article>
     </div>
   );
