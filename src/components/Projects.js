@@ -8,8 +8,8 @@ export default function Projects() {
     <div className="projects-background">
       <div className="container">
         <header className="container-title">Project</header>
-        <ProjectCard img={corner_archive1} />
-        <ProjectCard img={catlas} />
+        <ProjectCard name="Corner Archive" img={corner_archive1} />
+        <ProjectCard name="Catlas" img={catlas} />
       </div>
     </div>
   );
