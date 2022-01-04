@@ -17,6 +17,14 @@ export default function ProjectCard(props) {
             <strong>개발 언어: </strong>
             {props.contents.lang}
           </div>
+          <div>
+            <strong>설명</strong>
+            <ul className="project-desc">
+              {props.contents.desc.map((desc, idx) => (
+                <li key={idx}>{desc}</li>
+              ))}
+            </ul>
+          </div>
         </div>
       </article>
     </div>
