@@ -160,14 +160,18 @@
   margin-left: 10px;
   padding: 10px;
   font-size: 16px;
+  font-family: "Nanum Gothic", sans-serif;
   text-align: left;
 }
 .project-contents div {
   margin-bottom: 10px;
 }
 .project-desc {
-  margin-top: 8px;
+  margin-top: 5px;
   padding-left: 20px;
+}
+.project-desc li {
+  margin-bottom: 5px;
 }
 
 .App-logo {
