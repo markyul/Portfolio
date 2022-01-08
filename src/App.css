@@ -14,7 +14,7 @@
   padding-top: 30px;
   font-size: 48px;
   font-weight: bold;
-  font-family: "Jua", sans-serif;
+  font-family: 'Jua', sans-serif;
 }
 .side-flex {
   display: flex;
@@ -45,13 +45,13 @@
 .home {
   font-weight: bold;
   font-size: 24px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .nav-item {
   padding: 0 20px;
   font-size: 18px;
   font-weight: bold;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .nav-item:hover {
   color: #fdac53;
@@ -60,12 +60,11 @@
 
 /* About Me */
 .about-background {
-  width: 100%;
   background-image: linear-gradient(
       rgba(112, 93, 80, 0.4),
       rgba(160, 93, 49, 0.4)
     ),
-    url("./asset/background.jpg");
+    url('./asset/background.jpg');
   background-size: auto;
 }
 .aboutme-container {
@@ -75,7 +74,7 @@
 .name {
   color: white;
   font-size: 48px;
-  font-family: "Jua", sans-serif;
+  font-family: 'Jua', sans-serif;
 }
 .introduce {
   margin-top: 25px;
@@ -103,7 +102,7 @@
   font-weight: bold;
 }
 .reference > article > span {
-  font-family: "Nanum Gothic", sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
   color: rgb(199, 199, 199);
 }
 .reference > article > span:hover {
@@ -113,7 +112,6 @@
 
 /* Skill */
 .skill-background {
-  width: 100%;
   background-color: #a0d3f9;
 }
 .skill-container {
@@ -124,7 +122,7 @@
 .skill-title {
   font-size: 48px;
   font-weight: bold;
-  font-family: "Gamja Flower", cursive;
+  font-family: 'Gamja Flower', cursive;
 }
 .skill-line {
   width: 50px;
@@ -136,7 +134,6 @@
 
 /* Projects */
 .projects-background {
-  width: 100%;
   background-color: #f6c026;
 }
 .project-card {
@@ -160,7 +157,7 @@
   margin-left: 10px;
   padding: 10px;
   font-size: 16px;
-  font-family: "Nanum Gothic", sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
   text-align: left;
 }
 .project-contents div {

@@ -1,11 +1,11 @@
-import React from "react";
-import SkillCard from "./common/SkillCard";
+import React from 'react';
+import SkillCard from './SkillCard';
 
-import htmlCssJsLogo from "../asset/html_css_js.png";
-import reactLogo from "../asset/react_logo.png";
-import vueLogo from "../asset/vue_logo.png";
-import kotlinLogo from "../asset/kotlin_logo.png";
-import reactNativeLogo from "../asset/react_native_logo.png";
+import htmlCssJsLogo from '../../asset/html_css_js.png';
+import reactLogo from '../../asset/react_logo.png';
+import vueLogo from '../../asset/vue_logo.png';
+import kotlinLogo from '../../asset/kotlin_logo.png';
+import reactNativeLogo from '../../asset/react_native_logo.png';
 
 export default function Skill() {
   return (
