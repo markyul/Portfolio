@@ -171,6 +171,15 @@
   margin-bottom: 5px;
 }
 
+/* Career */
+.career-background {
+  background-color: #4c4556;
+}
+.career-card {
+  margin: 30px auto;
+  width: 1000px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
