@@ -178,6 +178,11 @@
 .career-card {
   margin: 30px auto;
   width: 1000px;
+}
+.career-card hr {
+  border-top: 1px dashed #bbb;
+}
+.career-grid {
   display: grid;
   grid-template-columns: 200px 1fr;
 }
@@ -195,7 +200,7 @@
 }
 .history h2 {
   position: relative;
-  margin: 0;
+  margin: 5px 0;
 }
 .history h2::before {
   content: '';
@@ -207,6 +212,13 @@
   border: 5px solid #ff5a2b;
   border-radius: 100%;
   background-color: #ffffff;
+}
+.history li {
+  margin-bottom: 5px;
+}
+.history li::before {
+  content: '';
+  margin-left: -8px;
 }
 .history section {
   margin: 20px 0;
