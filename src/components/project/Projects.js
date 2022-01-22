@@ -3,7 +3,7 @@ import ProjectCard from './ProjectCard';
 import corner_archive1 from '../../asset/corner_archive1.jpg';
 import portfolio from '../../asset/portfolio.png';
 
-export default function Projects() {
+export default function Projects(props) {
   const projects = [
     {
       name: 'Corner Archive',
@@ -36,7 +36,11 @@ export default function Projects() {
   ];
 
   return (
-    <div id="project" className="projects-background">
+    <div
+      ref={props.projectElement}
+      id="project"
+      className="projects-background"
+    >
       <div className="container">
         <header className="container-title">Project</header>
         {projects.map((project) => (

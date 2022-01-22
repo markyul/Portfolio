@@ -7,9 +7,9 @@ import vueLogo from '../../asset/vue_logo.png';
 import kotlinLogo from '../../asset/kotlin_logo.png';
 import reactNativeLogo from '../../asset/react_native_logo.png';
 
-export default function Skill() {
+export default function Skill(props) {
   return (
-    <div id="skill" className="skill-background">
+    <div ref={props.skillElement} id="skill" className="skill-background">
       <div className="container">
         <header className="container-title">Skill</header>
         <section className="skill-container">

@@ -1,8 +1,8 @@
 import React from 'react';
 
-export default function AboutMe() {
+export default function AboutMe(props) {
   return (
-    <div id="aboutMe" className="about-background">
+    <div ref={props.aboutMeElement} id="aboutMe" className="about-background">
       <div className="container">
         <div className="aboutme-container">
           <section className="name">궁금한 것이 많은 개발자</section>

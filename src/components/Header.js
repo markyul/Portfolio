@@ -1,22 +1,35 @@
-export default function Header() {
+export default function Header(props) {
+  const onAboutMeClick = () => {
+    props.aboutMeElement.current?.scrollIntoView({ behavior: 'smooth' });
+  };
+  const onSkillClick = () => {
+    props.skillElement.current?.scrollIntoView({ behavior: 'smooth' });
+  };
+  const onProjectClick = () => {
+    props.projectElement.current?.scrollIntoView({ behavior: 'smooth' });
+  };
+  const onCareerClick = () => {
+    props.careerElement.current?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <div>
       <header className="header-nav">
         <div className="container side-flex">
           <section className="home">RYUL - Portfolio</section>
           <section className="side-flex">
-            <a href="#aboutMe" className="nav-item">
+            <div className="nav-item" onClick={onAboutMeClick}>
               About me
-            </a>
-            <a href="#skill" className="nav-item">
+            </div>
+            <div className="nav-item" onClick={onSkillClick}>
               Skill
-            </a>
-            <a href="#project" className="nav-item">
+            </div>
+            <div className="nav-item" onClick={onProjectClick}>
               Project
-            </a>
-            <a href="#career" className="nav-item">
+            </div>
+            <div className="nav-item" onClick={onCareerClick}>
               Career
-            </a>
+            </div>
           </section>
         </div>
       </header>

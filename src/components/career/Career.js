@@ -2,9 +2,9 @@ import React from 'react';
 import gnuLogo from '../../asset/gnu.png';
 import dxdataLogo from '../../asset/dxdata_logo.png';
 
-export default function Career() {
+export default function Career(props) {
   return (
-    <div id="career" className="career-background">
+    <div ref={props.careerElement} id="career" className="career-background">
       <div className="container">
         <header className="container-title" style={{ color: 'white' }}>
           Career
