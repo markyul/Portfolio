@@ -4,7 +4,7 @@ import dxdataLogo from '../../asset/dxdata_logo.png';
 
 export default function Career() {
   return (
-    <div className="career-background">
+    <div id="career" className="career-background">
       <div className="container">
         <header className="container-title" style={{ color: 'white' }}>
           Career

@@ -9,7 +9,7 @@ import reactNativeLogo from '../../asset/react_native_logo.png';
 
 export default function Skill() {
   return (
-    <div className="skill-background">
+    <div id="skill" className="skill-background">
       <div className="container">
         <header className="container-title">Skill</header>
         <section className="skill-container">

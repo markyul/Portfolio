@@ -5,10 +5,18 @@ export default function Header() {
         <div className="container side-flex">
           <section className="home">RYUL - Portfolio</section>
           <section className="side-flex">
-            <div className="nav-item">About me</div>
-            <div className="nav-item">Skill</div>
-            <div className="nav-item">Project</div>
-            <div className="nav-item">Career</div>
+            <a href="#aboutMe" className="nav-item">
+              About me
+            </a>
+            <a href="#skill" className="nav-item">
+              Skill
+            </a>
+            <a href="#project" className="nav-item">
+              Project
+            </a>
+            <a href="#career" className="nav-item">
+              Career
+            </a>
           </section>
         </div>
       </header>

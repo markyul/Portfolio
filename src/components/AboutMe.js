@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
 export default function AboutMe() {
   return (
-    <div className="about-background">
+    <div id="aboutMe" className="about-background">
       <div className="container">
         <div className="aboutme-container">
           <section className="name">궁금한 것이 많은 개발자</section>
@@ -16,7 +16,7 @@ export default function AboutMe() {
               <header>Github: </header>
               <span
                 onClick={() =>
-                  window.open("https://github.com/markyul", "_blank")
+                  window.open('https://github.com/markyul', '_blank')
                 }
               >
                 https://github.com/markyul
