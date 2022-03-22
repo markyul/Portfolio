@@ -16,14 +16,14 @@ export default function Career(props) {
               <h1>학교</h1>
             </div>
             <div className="history">
-              <section>
+              {/* <section>
                 <h2>2018.07 ~ 12</h2>
                 <li>백화점 내의 삼성 모바일 대리점에서 아르바이트</li>
-              </section>
+              </section> */}
               <section>
                 <h2>2020.07 ~ 08</h2>
                 <li>진양고등학교에 외부 강사로서 수업 진행</li>
-                <li>블록 코딩을 이용한 RC카 운전 프로그램</li>
+                <li>블록 코딩을 이용한 RC카 운전 프로그램 코딩 강의</li>
               </section>
               <section>
                 <h2>2020.09 ~ 11</h2>
@@ -56,7 +56,7 @@ export default function Career(props) {
                 <h2>2021.10 ~ 12</h2>
                 <li>파트타임 연구원으로 주 5일 근무</li>
                 <li>DXDATA 홈페이지 제작</li>
-                <li>조선업 관련 기물 관련 대시보드 플랫폼 제작</li>
+                <li>조선업 기물 관련 대시보드 플랫폼 제작</li>
               </section>
             </div>
           </article>
