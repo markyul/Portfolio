@@ -37,6 +37,12 @@ export default function Career(props) {
                 </li>
                 <li>은상 수상</li>
               </section>
+              <section>
+                <h2>2022.02</h2>
+                <li>
+                  경상국립대학교 졸업
+                </li>
+              </section>
             </div>
           </article>
           <hr />
